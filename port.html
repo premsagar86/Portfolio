@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="port.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo" src="me.jpeg">Prem Sagar</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <p>✦ available for freelance work</p>
+            <h1>Crafting <span>clean responsive</span> experiences</h1>
+            <div class="desc">
+                I'm a <span>full-stack developer</span> who builds clean, fast, and
+                user-friendly websites with modern technologies.
+            </div>
+        </section>
+            <!-- About section -->
+        <section class="about" id="about">
+            <div class="about-img" style="border:none;">
+                <img src="me.jpeg" alt="">
+            </div>
+            <div class="about-content" style="">
+                <h2 style="text-align: center; color: rgb(212, 255, 0) ;">About Me</h2>
+               <div class="about-desc">
+                <p>I'm a passionate full-stack developer with experience in creating modern web applications. I specialize in JavaScript, React, and Node.js.</p>
+    
+                <p class="my-skill">My skills include:<br><br>
+                    <span class="skills">HTML</span><span class="skills">CSS</span><span class="skills">JavaScript</span><span class="skills">React</span><span class="skills">Node.js</span><span class="skills">MySQL</span><span class="skills">TailwindCSS</span>
+                </p>
+               </div>
+            </div>
+        </section>
+        <!-- Projects section -->
+        <section class="projects" id="projects">
+            <h1>my projects</h1>
+            <div class="projects-grid">
+                <div class="cards" style="color: wheat;">
+                    <h3 style="background-color: rgb(44, 54, 5);">Project 1</h3>
+                    <p style="background-color: rgb(44, 54, 5);">A responsive portfolio website built with React and styled-components.</p>
+                </div>
+                <div class="cards" style="color: wheat;">
+                    <h3 style="background-color: rgb(44, 54, 5);">Project 2</h3>
+                    <p style="background-color: rgb(44, 54, 5);">A simple task management app built with React and Node.js.</p>
+                </div>
+                <div class="cards" style="color: wheat;">
+                    <h3 style="background-color: rgb(44, 54, 5);">Project 3</h3>
+                    <p style="background-color: rgb(44, 54, 5);">A e-commerce website built with React and Stripe integration.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h1 style="display: block;">Contact Me</h1>
+            <div class="form">
+                
+                <form action="" method="post">
+                    <div class="form-group">
+                        <input class="form-input" type="text" name="name" placeholder=" Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-input" type="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">    
+                        <textarea class="form-input" name="message" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="form-button" type="submit">Send Message</button> 
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
